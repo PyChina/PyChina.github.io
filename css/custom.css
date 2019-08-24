@@ -1,0 +1,26 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+header.masthead {
+    /* background: linear-gradient(0deg,#4B8BBE 0,#646464 30, #ffffff 60, #FFD43B 100%) !important; */
+    background: -webkit-gradient(linear,left bottom,left top,from(#FFD43B),to(#FFE873));
+    background: linear-gradient(0deg,#FFD43B 0,#FFE873 100%);
+}
+
+header.masthead .bg-circle {
+    background: -webkit-gradient(linear,left bottom,left top,from(#306998),to(#4B8BBE));
+    background: linear-gradient(0deg,#306998 0,#4B8BBE 100%);
+}
+
+.navbar-custom .navbar-brand, .navbar-nav .nav-item .nav-link {
+    text-transform: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.sleep-link {
+    color: #000000;
+}
